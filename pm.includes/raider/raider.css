@@ -1,0 +1,31 @@
+.pmraider {
+	display: none;
+}
+.raiderWrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.raiderBar {
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 125%;
+	height: 100px;
+	background: linear-gradient(#ff9900,#297BD6,#297BD6,#297BD6,#ff9900);
+	transform: rotate(-5deg);
+	top: 20%;
+	left:-100px;
+}
+.raiderName {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+
+	font-size: 48px;
+	line-height: 100px;
+}
+.raiderName span {
+	color: #ff9900;
+}
